@@ -1,0 +1,5 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/kodahenk/wpgit.kodahenk.com
+    - /bin/cp * $DEPLOYPATH
